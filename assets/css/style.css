@@ -240,6 +240,23 @@ body {
     transform: translateY(-4px);
 }
 
+
+.btn-outline-custom-2 {
+    border: 2px solid var(--primary-orange);
+    color: var(--primary-orange);
+    font-weight: 700;
+    padding: 1rem 2.2rem;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    text-decoration: none;
+}
+
+.btn-outline-custom-2:hover {
+    background-color: var(--primary-orange);
+    color: white;
+    transform: translateY(-4px);
+}
+
 /* Seção "Quem Somos" com Imagem de Infraestrutura Local */
 .about-section {
     background-color: var(--white);
@@ -488,4 +505,8 @@ footer a:hover {
 
 .animate-fade-in {
     animation: fadeInUp 0.8s ease forwards;
+}
+
+.text-primary-orange {
+    color: var(--primary-orange) !important;
 }
